@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Block-Comments</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="colum">
+        <div class="colum__title">
+          <h1></h1>
+        </div>
+        <hr />
+
+        <div class="comments">
+          <img src="/img/dog.png" class="img-god" />
+          <div>
+            <div id="comment-field"></div>
+          </div>
+          <form action="" class="form" id="form-add">
+            <div class="form__group">
+              <input
+                type="name"
+                class="form__name"
+                id="comment-name"
+                placeholder="Введите имя"
+                required
+                max="10"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form__group">
+              <input
+                type="text"
+                class="form__body"
+                id="comment-body"
+                placeholder="Написать коментарий..."
+                autocomplete="off"
+                required
+              />
+            </div>
+            <div class="form__down">
+              <input type="date" class="form__date" id="comment-date" />
+              <button type="submite" id="comment-add" class="form__btn">
+                Отправить
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
